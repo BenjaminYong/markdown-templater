@@ -1,0 +1,9 @@
+.hide {
+    display: none;
+  }
+
+header, .section{
+    border: thin solid black;
+    padding: 5px;
+    margin: 5px;
+}

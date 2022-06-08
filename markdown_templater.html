@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <title>Markdown Templater</title>
+    <meta name="description" content="Home Page">
+    <meta name="keywords" content="html markdown templater">
+    <script src="markdown_templater.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <div>
+        <h1>Markdown Templater</h1>
+    </div>
+</header>
+<body>
+    </br>
+    <div class="section">
+        <h2>Templates</h2>
+        <form>
+            <input type="radio" id="bitbucketPR" name="divToggle" onclick="changeContent1();" value="Bitbucket PR">
+            <label for="bitbucketPR">Bitbucket PR</label><br>
+            <input type="radio" id="jiraTicket" name="divToggle" onclick="changeContent2();" value="Jira Ticket">
+            <label for="jiraTicket">Jira Ticket</label><br>
+        </form>
+    </div>
+    </br>
+    <div class="section">
+        <h2>Input</h2>
+        <div id="show1" class="hide">
+            <p>First div</p>
+          </div>
+          <div id="show2" class="hide">
+            <p>Second div</p>
+          </div>
+        <button>Process</button>
+    </div>
+    </br>
+    <div class="section">
+        <h2>Output</h2>
+        <p>Markdown</p>
+    </div>
+</body>
+</html>
